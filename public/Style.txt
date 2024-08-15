@@ -7,6 +7,7 @@ Não é possível criar, editar ou fazer upload de arquivos … Armazenamento in
   --dark-10: #262626;
   --dark-20: #414141;
   --dark-30: #737373;
+  
 
   --white: #ffffff;
 }
