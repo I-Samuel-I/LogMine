@@ -4,6 +4,7 @@ export const Main = styled.main`
     
         border:solid 1px;
         width:80%;
+        height:10vh;
         margin:auto;
     
 `;
@@ -21,11 +22,12 @@ export const ParagraphWrapper = styled.div `
 export const InputWrapper = styled.div`
     input{
         width:100%;
-        border:none;
-        height:4.5vh;
+        height:100vh;
+        border:solid 1px #414141;
+        height:5.5vh;
         background-color:#262626;
 
-        border-radius:3px;
+        border-radius:4px;
     }
         input::placeholder{
             color:#868181;
