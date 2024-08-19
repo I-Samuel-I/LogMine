@@ -23,13 +23,17 @@ export const InputWrapper = styled.div`
         width:100%;
         height:100vh;
         border:solid 1px #414141;
+        border-radius:3px;
+        outline:none;
         height:5vh;
         background-color:#262626;
-        border-radius:3px;
+        color:white;
     }
         input::placeholder{
             color:#868181;
             padding-left:4%;
         }
-
+        input:focus{
+            border:solid 2px #0f0f0f;
+        }
 `;
