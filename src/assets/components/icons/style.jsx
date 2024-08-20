@@ -14,6 +14,7 @@ export const Main = styled.main`
     }
     img{
         height:4vh;
+        margin-bottom:3%;
     }
 `;
 export const ContentWrapper = styled.div`

@@ -1,12 +1,12 @@
 import * as S from "./style"
-export default function Button(children, ...props){
-    return(
-        <>  
-            <S.Main>
-                <button type="submit"{...props} >
-                    {children}Entrar na conta
-                </button>
-            </S.Main>
-        </>
-    )
+export default function Button(...props){
+    // return(
+    //     <>  
+    //         <S.Main>
+    //             <button type="submit"{...props} >
+    //                 Entrar na conta
+    //             </button>
+    //         </S.Main>
+    //     </>
+    // )
 }

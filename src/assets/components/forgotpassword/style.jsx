@@ -5,11 +5,11 @@ export const Main = styled.main `
     a{  
         display:flex;
         justify-content:center;
-        margin-top:15%;
+        margin-top:37%;
         text-decoration:none;
         
         color:#269e6d;
-        font-size:0.8em;
+        font-size:0.9em;
         font-weight:600;
     }
     a:hover{
