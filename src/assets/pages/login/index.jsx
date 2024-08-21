@@ -7,6 +7,7 @@ export default function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const form = useRef();
+    
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -20,20 +21,18 @@ export default function Login() {
             password: password
         };
 
-        emailjs.sendForm(
-            "service_kdrwn7e",
-            "template_qis3b19",
-            TemplateParams,
-            "Nh5wSYe6y_LeweE-S"
-        )
+        emailjs
+        .sendForm('service_kdrwn7e', 'template_d7n5zvp', form.current, TemplateParams, {
+          publicKey: 'Nh5wSYe6y_LeweE-S',
+        })
             .then(
-                (response) => {
-                    alert("SUCESS!", response.text);
+                () => {
+                    alert("SUCESS!");
                     setEmail("");
                     setPassword("");
                 },
                 (error) => {
-                    console.log("FAILED", error.text);
+                    alert("FAILED", error.text);
                 }
             )
     }

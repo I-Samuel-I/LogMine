@@ -7,6 +7,6 @@ export const Main = styled.main`
     margin:auto;
     margin-top:7.5%;
     height:48vh;
-    background-color:#262626ca;
+    background-color:#262626c8;
 `;
 

@@ -10,8 +10,8 @@ export default function Remember(){
     return(
         <form>
             <S.Main>
-                <input type="radio" id="remember" onClick={RadioClick} checked={RememberSelect}/>
-                <label htmlFor="remember" onClick={RadioClick}>Lembrar minha senha</label>
+                <input type="radio" id="remember" onClick={RadioClick} checked={RememberSelect} name="remember"/>
+                <label htmlFor="remember" name="remember" >Lembrar minha senha</label>
             </S.Main>
         </form>
     )

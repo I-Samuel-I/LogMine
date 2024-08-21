@@ -45,6 +45,7 @@ export const InputWrapper = styled.div`
     input{
         width:100%;
         height:100vh;
+        padding:10px;
         border:solid 1px #414141;
         border-radius:3px;
         outline:none;
@@ -54,7 +55,7 @@ export const InputWrapper = styled.div`
     }
         input::placeholder{
             color:#868181;
-            padding-left:4%;
+            
         }
         input:focus{
             border:solid 2px #0f0f0f;

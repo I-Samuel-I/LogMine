@@ -24,8 +24,10 @@ export const Main = styled.main`
             background-color:white;
             font-weight:600;
             transition:0.5s;
+            transform:scale(1.2);
             border-radius:5px;
             cursor: pointer;
+            
         }
     
 `;
