@@ -31,4 +31,7 @@ export const Main = styled.main `
     input[type="radio"]:checked{
         background-color:white;
     }
+@media only screen and (max-width: 991px) {
+    margin-top:3%;
+}
 `;

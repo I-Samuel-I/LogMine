@@ -17,5 +17,7 @@ export const Main = styled.main `
         color:#218b61;
     }
     
-    
+@media only screen and (max-width: 991px) {
+    margin-top:33%;
+}
 `;

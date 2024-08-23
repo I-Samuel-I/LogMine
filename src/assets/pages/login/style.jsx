@@ -26,7 +26,13 @@ export const Main = styled.main`
                 box-shadow: 0px 0px 8px 7px rgba(146, 145, 145, 0.397);
                 transition: box-shadow 0.3s ;
             }    
-
+@media only screen and (max-width: 991px) {
+    button{
+        margin-top:23%;
+        height:6.5vh;
+        font-size:1em;
+}
+}
 `;
 export const LogoWrapper = styled.div`
     width:100%;
@@ -34,17 +40,24 @@ export const LogoWrapper = styled.div`
     margin-top:2%;
     display:flex;
     justify-content:center;
+
+    @media only screen and (max-width: 991px) {
+    margin-top:8%;
+}
 `;
 export const ParagraphWrapper = styled.div `
     color:white;
     margin-bottom:3%;
     font-size:0.9em;
-    font-weight:500;
+    font-weight:400;
+
+@media only screen and (max-width: 991px) {
+    margin-top:8%;
+}
 `;
 export const InputWrapper = styled.div`
     input{
         width:100%;
-        height:100vh;
         padding:10px;
         border:solid 1px #414141;
         border-radius:3px;
@@ -60,4 +73,9 @@ export const InputWrapper = styled.div`
         input:focus{
             border:solid 2px #0f0f0f;
         }
+@media only screen and (max-width: 991px) {
+    input{
+        height:6vh;
+    }
+}
 `;

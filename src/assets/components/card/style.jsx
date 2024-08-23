@@ -7,6 +7,18 @@ export const Main = styled.main`
     margin:auto;
     margin-top:7.5%;
     height:48vh;
-    background-color:#262626c8;
+    background-color:#262626d1;
+
+@media only screen and (max-width: 991px) {
+    width:55%;
+    height:68vh;
+    margin-top:1.5%;
+}
+@media only screen and (min-width: 992px) {
+    width:40%;
+    height:50vh;
+    margin-top:6.5%;
+    
+}
 `;
 

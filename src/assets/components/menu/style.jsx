@@ -29,5 +29,13 @@ export const Main = styled.main`
             cursor: pointer;
             
         }
+        
+@media only screen and (max-width: 991px) {
     
+}
+@media only screen and (max-width: 1999px) { 
+    transform:scale(1.1);
+    
+}
 `;
+const MenuWrapper = styled.div ``;

@@ -7,4 +7,8 @@ export const Main = styled.main `
     margin-top:9%;
     text-align:center;
     color:white;
+
+@media only screen and (max-width: 991px) {
+    display:none;
+}
 `;
