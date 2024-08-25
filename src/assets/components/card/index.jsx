@@ -1,7 +1,5 @@
 import * as S from "./style"
-
 import Login from "../../pages/login/index"
-import ForgotPassword from "../forgotpassword";
 import Remember from "../remember";
 
 export default function Card(){
@@ -9,10 +7,7 @@ export default function Card(){
         <>
         <S.Main>
             <Login/>
-            <Remember/>
-            <div>
-                <ForgotPassword/>
-            </div> 
+            <Remember/>         
         </S.Main>
         </>
     )

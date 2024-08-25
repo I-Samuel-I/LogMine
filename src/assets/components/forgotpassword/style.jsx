@@ -5,7 +5,7 @@ export const Main = styled.main `
     a{  
         display:flex;
         justify-content:center;
-        margin-top:37%;
+        
         text-decoration:none;
         
         color:#269e6d;
@@ -17,7 +17,5 @@ export const Main = styled.main `
         color:#218b61;
     }
     
-@media only screen and (max-width: 991px) {
-    margin-top:33%;
-}
+
 `;

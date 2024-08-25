@@ -4,10 +4,14 @@ export const Main = styled.main `
     
     width:85%;
     margin:auto;
-    margin-top:9%;
+    margin-top:10%;
     text-align:center;
     color:white;
 
+@media only screen and (max-width: 1200px) {
+    transform: scale(0.8);
+    margin-top:6%;
+}    
 @media only screen and (max-width: 991px) {
     display:none;
 }

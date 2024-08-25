@@ -66,6 +66,9 @@ export default function Login() {
                     <button type="submit" >
                         Entrar na conta
                     </button>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    Esqueceu a senha?   
+                    </a>
             </S.Main>
         </form>
     )

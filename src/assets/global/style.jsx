@@ -10,10 +10,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family:'Inter',sans-serif;
         height:100vh;
         background-image:
-        radial-gradient(circle at center , rgba(65, 65, 65, 0) 0%, rgb(0, 0, 0) 100%),
+        radial-gradient(circle at center , rgba(65, 65, 65, 0) 0%, #000000 100%),
         url(${bgImage});
         background-size:cover;
         background-position:center;
         background-repeat:no-repeat;
+        overflow-y:hidden;
 }
 `;  

@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-        width:80%;
-        height:10vh;
-        margin:auto;   
+    width:80%;
+    height:10vh;
+    margin:auto;   
         
         button{
-            font-size:1.1em;
+            font-size:1.2em;
             font-weight:600;
+            font-family: "Kufam";
             width:100%;
-            height:5.5vh;
+            height:5vh;
             margin-top:20%;
             border-radius:7px;
             border:none;
@@ -17,7 +18,6 @@ export const Main = styled.main`
             background-color:#269e6d;
             box-shadow: 0px 0px 0px 7px rgba(126, 125, 125, 0.192);
             color:white;
-
 }
             button:hover{
                 cursor:pointer;
@@ -25,25 +25,28 @@ export const Main = styled.main`
                 transition:0.2s;
                 box-shadow: 0px 0px 8px 7px rgba(146, 145, 145, 0.397);
                 transition: box-shadow 0.3s ;
-            }    
-@media only screen and (max-width: 991px) {
-    button{
-        margin-top:23%;
-        height:6.5vh;
-        font-size:1em;
+}  
+        
+        a{  
+            display:flex;
+            justify-content:center;
+            text-decoration:none;
+            margin-top:12%;
+            color:#269e6d;
+            font-size:0.9em;
+            font-weight:600;
 }
-}
+        a:hover{
+            text-decoration:underline;
+            color:#218b61;
+}  
 `;
 export const LogoWrapper = styled.div`
     width:100%;
     margin:auto;
-    margin-top:2%;
+    margin-top:6%;
     display:flex;
     justify-content:center;
-
-    @media only screen and (max-width: 991px) {
-    margin-top:8%;
-}
 `;
 export const ParagraphWrapper = styled.div `
     color:white;
@@ -65,17 +68,11 @@ export const InputWrapper = styled.div`
         height:5vh;
         background-color:#262626;
         color:white;
-    }
-        input::placeholder{
-            color:#868181;
-            
-        }
-        input:focus{
-            border:solid 2px #0f0f0f;
-        }
-@media only screen and (max-width: 991px) {
-    input{
-        height:6vh;
-    }
+}
+            input::placeholder{
+                color:#868181;
+}
+            input:focus{
+                border:solid 2px #0f0f0f;
 }
 `;

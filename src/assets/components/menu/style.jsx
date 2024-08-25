@@ -3,7 +3,7 @@ export const Main = styled.main`
     ul{
         display: flex;
         list-style-type:none;
-        margin-top:7%;
+        margin-top:9%;
     }
     li{
         display:flex;
@@ -27,15 +27,16 @@ export const Main = styled.main`
             transform:scale(1.2);
             border-radius:5px;
             cursor: pointer;
-            
-        }
         
+        }
 @media only screen and (max-width: 991px) {
-    
+    display:none;
 }
+
 @media only screen and (max-width: 1999px) { 
     transform:scale(1.1);
-    
 }
 `;
-const MenuWrapper = styled.div ``;
+export const MenuWrapper = styled.div `
+
+`;
