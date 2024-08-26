@@ -37,6 +37,4 @@ export const Main = styled.main`
     transform:scale(1.1);
 }
 `;
-export const MenuWrapper = styled.div `
 
-`;
