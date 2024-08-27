@@ -2,17 +2,19 @@ import styled from "styled-components";
 export const Main = styled.main`
     ul{
         display: flex;
+        justify-content:center;
         list-style-type:none;
-        margin-top:9%;
+        margin-top:3%;
+        width:100%;
+        padding:0;
     }
     li{
         display:flex;
         justify-content:center;
-        align-items:center;
-        width: 50%;
+        align-items: center;
+        width: 15%;
         height:3.5vh;
         padding-top:1%;
-        
         font-family: "Kufam", sans-serif;
         font-size:0.9em;
         font-weight:600;
@@ -35,6 +37,9 @@ export const Main = styled.main`
 
 @media only screen and (max-width: 1999px) { 
     transform:scale(1.1);
+    li{
+        width:20%;
+    }
 }
 `;
 

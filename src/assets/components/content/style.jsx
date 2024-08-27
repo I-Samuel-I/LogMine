@@ -9,8 +9,9 @@ export const Main = styled.main `
     color:white;
 
 @media only screen and (max-width: 1200px) {
-    transform: scale(0.8);
-    margin-top:6%;
+    transform: scale(0.9);
+    margin-top:12%;
+    width:100%;
 }    
 @media only screen and (max-width: 991px) {
     display:none;

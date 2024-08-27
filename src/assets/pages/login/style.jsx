@@ -6,8 +6,8 @@ export const Main = styled.main`
     margin:auto;   
         
         button{
-            font-size:1.2em;
-            font-weight:600;
+            font-size:1em;
+            font-weight:500;
             font-family: "Kufam";
             width:100%;
             height:5vh;
@@ -25,8 +25,23 @@ export const Main = styled.main`
                 transition:0.2s;
                 box-shadow: 0px 0px 8px 7px rgba(146, 145, 145, 0.397);
                 transition: box-shadow 0.3s ;
-}  
-        
+} 
+    @media only screen and (max-width: 991px) {
+        button{
+            height:6vh;
+            font-size:0.9em;
+            font-weight:600;
+}
+}
+    @media only screen and (max-width: 600px) {
+        button{
+            height:6.5vh;
+            font-size: 0.95em;
+            font-weight:500;
+        }
+}
+
+
         a{  
             display:flex;
             justify-content:center;
@@ -40,6 +55,14 @@ export const Main = styled.main`
             text-decoration:underline;
             color:#218b61;
 }  
+    @media only screen and (max-width: 991px) {
+        a{
+            margin-top:8%;
+            height:8vh;
+            align-items:center;
+        }
+}
+ 
 `;
 export const LogoWrapper = styled.div`
     width:100%;
@@ -48,6 +71,7 @@ export const LogoWrapper = styled.div`
     display:flex;
     justify-content:center;
 `;
+
 export const ParagraphWrapper = styled.div `
     color:white;
     margin-bottom:3%;
@@ -58,6 +82,7 @@ export const ParagraphWrapper = styled.div `
     margin-top:8%;
 }
 `;
+
 export const InputWrapper = styled.div`
     input{
         width:100%;
@@ -74,5 +99,11 @@ export const InputWrapper = styled.div`
 }
             input:focus{
                 border:solid 2px #0f0f0f;
+}
+
+@media only screen and (max-width: 991px) {
+    input{
+        height:6vh;
+    }
 }
 `;

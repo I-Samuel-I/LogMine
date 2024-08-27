@@ -11,12 +11,12 @@ export const MenuWrapper = styled.div`
     width: 2rem;
     height: 2.3rem;
     position: fixed;
-    top: 15px;
+    top: 25px;
     right: 50px;
     display: flex;
     justify-content: space-around;
     flex-flow: column;
-    transform: scale(0.9);
+    transform: scale(0.8);
     cursor: pointer;
 
     div {
@@ -46,19 +46,36 @@ export const NavWrapper = styled.div`
   @media only screen and (max-width: 991px) {
     ul {
       display: ${({ open }) => (open ? 'flex' : 'none')};
-      align-items: end;
+      align-items: center; 
+      justify-content: center; 
       flex-flow: column nowrap;
-      background-color: #262626b0;
+      background-color: #262626c5;
       position: fixed;
       top: 50px;
       right: 0;
-      padding: 1rem;
+      padding: 3rem;
+      width:50%;
+      height:100vh;
+     
       list-style: none;
 
       li {
         padding: 10px 0;
         color: white;
-      }
-    }
-  }
+        font-family: "Kufam", sans-serif;
+        text-align:center;
+        margin-top:10%;
+}
+        li:hover{
+            color:#269e6d;
+            width:100%;
+            background-color:white;
+            font-weight:600;
+            transition:0.5s;
+            transform:scale(1.2);
+            border-radius:5px;
+            cursor: pointer;
+}
+}
+}
 `;
