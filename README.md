@@ -3,7 +3,7 @@
 > Status : Em desenvolvimento ⏳ 
 
 ## Desafio [24] Codelândia - Iuri Silva
->Veja o design: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=260111-1438&t=KcZGKPMv3Lz2vuRF-0
+>Veja o design: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab
 
 <img src="./src/assets/img/MineLog-PrintHome.png">
 
