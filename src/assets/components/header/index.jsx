@@ -11,7 +11,5 @@ export default function Header(){
           <NavBar/>
         </S.Main> 
       </>
-     
-      
     )
 }

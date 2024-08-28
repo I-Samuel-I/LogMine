@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Main = styled.main`
     width: 30%;
     margin: auto;
-    
     text-align: center;
 
     @media only screen and (max-width: 991px) {
@@ -21,11 +20,11 @@ export const Main = styled.main`
     }
     @media only screen and (max-width: 767px) { 
         height:9vh;
+        left:30px;
         img{
             position:relative;
             top:5px;
-            width:15%;
-            
+            width:15%;   
         }
     }
 
@@ -33,6 +32,5 @@ export const Main = styled.main`
         img{
             width:7rem;
         }
-    }
-    
+    }  
 `;

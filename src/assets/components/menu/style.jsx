@@ -1,18 +1,20 @@
 import styled from "styled-components";
 export const Main = styled.main`
+    
     ul{
         display: flex;
         justify-content:center;
         list-style-type:none;
-        margin-top:3%;
+        margin-top:8%;
         width:100%;
         padding:0;
     }
     li{
+        
         display:flex;
         justify-content:center;
         align-items: center;
-        width: 15%;
+        width: 18%;
         height:3.5vh;
         padding-top:1%;
         font-family: "Kufam", sans-serif;
@@ -35,10 +37,12 @@ export const Main = styled.main`
     display:none;
 }
 
-@media only screen and (max-width: 1999px) { 
-    transform:scale(1.1);
+@media only screen and (max-width: 1199px) { 
+    transform:scale(1);
+    width:100%;
     li{
-        width:20%;
+        margin-left:10px;
+        width:100%;
     }
 }
 `;

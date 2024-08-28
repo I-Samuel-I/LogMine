@@ -5,7 +5,7 @@
 ## Desafio [24] Codelândia - Iuri Silva
 >Veja o design: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab
 
-<img src="./src/assets/img/MineLog-PrintHome.png">
+<img width="800px" src="./src/assets/img/MineLog-PrintHome.png">
 
 _Tecnologias:_
 
@@ -15,12 +15,12 @@ _Tecnologias:_
 
 ### Como usar:
 
-- git clone [GITHUB](https://github.com/I-Samuel-I/LogMine) / download the zip
+- git clone https://github.com/I-Samuel-I/LogMine / download the zip
 - npm install / yarn install
 - code . (caso use o VSCode)
 - npm start / yarn start
 
-## 💻 Página oline: [link](https://logmine.bohr.io)
+## 💻 Página oline: https://logmine.bohr.io
 
 ## 🌐 Contate-me:
 

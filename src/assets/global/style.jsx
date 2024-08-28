@@ -9,8 +9,10 @@ export const GlobalStyle = createGlobalStyle`
     body,html{
         font-family:'Inter',sans-serif;
         height:100vh;
-        background-image:
-        radial-gradient(circle at center , rgba(65, 65, 65, 0) 0%, #000000 100%),
+        background:
+        radial-gradient(circle at center , rgba(65, 65, 65, 0) 20%, #000000d1 100%),
+        linear-gradient(to bottom, #000000d8 0%, rgba(0, 0, 0, 0) 35%),
+        linear-gradient(to top, #0000007b 0%, rgba(0, 0, 0, 0) 35%),
         url(${bgImage});
         background-size:cover;
         background-position:center;

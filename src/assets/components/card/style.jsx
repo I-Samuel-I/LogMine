@@ -3,14 +3,13 @@ import styled from "styled-components";
 export const Main = styled.main`
     border:solid 1px #414141;
     border-radius:10px;
-    width:27%;
+    width:30%;
     margin:auto;
     margin-top:8%;
     height:46vh;
     background-color:#262626d1;
 
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
     width:40%;
     height:50vh;
     margin-top:6.5%;
@@ -21,14 +20,13 @@ export const Main = styled.main`
     margin-top:11%;
 }
 @media only screen and (max-width: 767px) {
-    width:65%;
+    width:500px;
     
 }
 @media only screen and (max-width: 600px) {
     width:85%;
-    height:65vh;
-    margin-top:20%;
+    height:63vh;
+    margin-top:25%;
 }
-
 `;
 

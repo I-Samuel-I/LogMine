@@ -6,7 +6,6 @@ export default function Title(){
             <S.Main> 
                 <img src={Logo} alt="LogMine-Logo"></img>
             </S.Main>
-           
         </>
     )
 }

@@ -24,9 +24,7 @@ export default function Icons(){
                     <img src = {Images.Icon2} alt="Baby"/>
                     <p>Permitido para menores</p>  
                 </S.ContentWrapper>
-                
             </S.Main>
-            
         </>
     )
 }

@@ -6,11 +6,11 @@ export const Main = styled.main`
     margin:auto;   
         
         button{
-            font-size:1em;
-            font-weight:500;
+            font-size:0.95em;
+            font-weight:600;
             font-family: "Kufam";
             width:100%;
-            height:5vh;
+            height:5.3vh;
             margin-top:20%;
             border-radius:7px;
             border:none;
@@ -37,19 +37,25 @@ export const Main = styled.main`
         button{
             height:6.5vh;
             font-size: 0.95em;
+            margin-top:20%;
             font-weight:500;
+            width:100%;
         }
 }
-
+    @media only screen and (max-width: 375px) {
+        button{
+            margin-top:32%;
+        }
+    }
 
         a{  
             display:flex;
             justify-content:center;
             text-decoration:none;
-            margin-top:12%;
+            margin-top:7%;
             color:#269e6d;
             font-size:0.9em;
-            font-weight:600;
+            font-weight:400;
 }
         a:hover{
             text-decoration:underline;
@@ -57,11 +63,33 @@ export const Main = styled.main`
 }  
     @media only screen and (max-width: 991px) {
         a{
-            margin-top:8%;
+            margin-top:0%;
             height:8vh;
             align-items:center;
         }
+     
 }
+    @media only screen and (max-width: 767px) {
+        a{
+            margin-top:2%;
+        }
+}
+
+    @media only screen and (max-width: 425px) {
+        a{
+            margin-top:15px;
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        a{
+            margin-top:20px;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        a{
+            margin-top:45px;
+        }
+    }
  
 `;
 export const LogoWrapper = styled.div`
