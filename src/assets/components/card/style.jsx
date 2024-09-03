@@ -5,7 +5,7 @@ export const Main = styled.main`
     border-radius:10px;
     width:30%;
     margin:auto;
-    margin-top:8%;
+    margin-top:6%;
     height:46vh;
     background-color:#262626d1;
 

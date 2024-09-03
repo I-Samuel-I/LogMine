@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         height:100vh;
         background:
         radial-gradient(circle at center , rgba(65, 65, 65, 0) 20%, #000000d1 100%),
-        linear-gradient(to bottom, #000000d8 0%, rgba(0, 0, 0, 0) 35%),
+        linear-gradient(to bottom, #000000d8 2%, rgba(0, 0, 0, 0) 40%),
         linear-gradient(to top, #0000007b 0%, rgba(0, 0, 0, 0) 35%),
         url(${bgImage});
         background-size:cover;
