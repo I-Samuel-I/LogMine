@@ -3,9 +3,9 @@ import Logo from "../../img/logo.svg"
 export default function Title(){
     return (
         <>
-            <S.Main> 
+            <S.Title> 
                 <img src={Logo} alt="LogMine-Logo"></img>
-            </S.Main>
+            </S.Title>
         </>
     )
 }

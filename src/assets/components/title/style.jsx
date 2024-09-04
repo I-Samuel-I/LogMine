@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const Title = styled.section`
     width: 30%;
     margin: auto;
     text-align: center;

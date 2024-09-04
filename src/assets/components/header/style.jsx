@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const Header = styled.header`
     width: 50%;
     margin: auto;
     margin-top:2%;

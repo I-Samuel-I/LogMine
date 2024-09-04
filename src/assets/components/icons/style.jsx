@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Main = styled.main`
+export const Images = styled.section`
     display:flex;
     width:100%;
     

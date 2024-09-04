@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Main = styled.main `
+export const Content = styled.article `
     display:flex;
     width:85%;
     margin:auto;
@@ -9,7 +9,7 @@ export const Main = styled.main `
     color:white;
 @media only screen and (max-width: 1200px) {
     transform: scale(0.9);
-    margin-top:35px;
+    margin-top:25px;
     width:100%;
 }    
 @media only screen and (max-width: 991px) {

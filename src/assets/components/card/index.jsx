@@ -5,10 +5,10 @@ import Remember from "../remember";
 export default function Card(){
     return(
         <>
-        <S.Main>
+        <S.Card>
             <Login/>
             <Remember/>         
-        </S.Main>
+        </S.Card>
         </>
     )
 }

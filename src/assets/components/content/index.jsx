@@ -3,9 +3,9 @@ import * as S from "./style"
 export default function Content(){
     return(
         <>
-            <S.Main>
+            <S.Content>
                 <Icons/>
-            </S.Main>
+            </S.Content>
         </>
     )
 }

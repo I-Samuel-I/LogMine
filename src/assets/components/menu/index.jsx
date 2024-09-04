@@ -1,9 +1,8 @@
 import * as S from "./style"
-import { useState } from "react"
 export default function Menu(){
     return(
         <>
-            <S.Main>
+            <S.Menu>
                 <ul>
                     <li>ENTRAR</li>
                     <li>FORUM</li>
@@ -11,7 +10,7 @@ export default function Menu(){
                     <li>MOJANG</li>
                     <li>PERGUNTAS</li>
                 </ul> 
-            </S.Main>
+            </S.Menu>
         </>
     )
 }

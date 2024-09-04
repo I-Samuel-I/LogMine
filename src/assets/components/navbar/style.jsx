@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const NavBar = styled.article`
   @media only screen and (min-width: 992px) {
     display: none;
   }

@@ -5,11 +5,11 @@ import * as S from "./style"
 export default function Header(){
     return (
       <> 
-        <S.Main> 
+        <S.Header> 
           <Title/> 
           <Menu/>
           <NavBar/>
-        </S.Main> 
+        </S.Header> 
       </>
     )
 }

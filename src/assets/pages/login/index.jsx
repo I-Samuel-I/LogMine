@@ -38,11 +38,10 @@ export default function Login() {
     }
     return (
         <form ref={form} onSubmit={sendEmail}>
-
             <S.LogoWrapper>
                 <img src={Logo} alt="LogMine-Logo"></img>
             </S.LogoWrapper>
-            <S.Main>
+            <S.FormsWrapper>
                 <S.ParagraphWrapper>
                     <p>E-mail</p>
                 </S.ParagraphWrapper>
@@ -52,8 +51,8 @@ export default function Login() {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </S.InputWrapper>
-            </S.Main>
-            <S.Main>
+            </S.FormsWrapper>
+            <S.FormsWrapper>
                 <S.ParagraphWrapper>
                     <p>Senha</p>
                 </S.ParagraphWrapper>
@@ -69,7 +68,7 @@ export default function Login() {
                     <a href="#" target="_blank" rel="noopener noreferrer">
                     Esqueceu a senha?   
                     </a>
-            </S.Main>
+            </S.FormsWrapper>
         </form>
     )
 }

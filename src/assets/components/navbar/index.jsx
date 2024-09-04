@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <>
-      <S.Main>
+      <S.NavBar>
         <S.MenuWrapper open={open} onClick={() => setOpen(!open)}>
           <div />
           <div />
@@ -22,7 +22,7 @@ const NavBar = () => {
             <li>PERGUNTAS</li>
           </ul>
         </S.NavWrapper>
-      </S.Main>
+      </S.NavBar>
     </>
   );
 };

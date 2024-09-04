@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const Card = styled.section`
     border:solid 1px #414141;
     border-radius:10px;
     width:30%;

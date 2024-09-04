@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const FormsWrapper = styled.div`
     width:80%;
     height:10vh;
     margin:auto;   

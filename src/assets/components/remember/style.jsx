@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main `
+export const Remember = styled.div `
     display:flex;
     align-items:center;
     width:80%;

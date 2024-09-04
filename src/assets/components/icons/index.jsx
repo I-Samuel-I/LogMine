@@ -3,7 +3,7 @@ import * as Images from "../img/index"
 export default function Icons(){
     return(
         <>
-            <S.Main>
+            <S.Images>
                 <S.ContentWrapper>
                     <img src = {Images.Icon} alt="Power"/>
                     <p>Jogue também offline</p>
@@ -24,7 +24,7 @@ export default function Icons(){
                     <img src = {Images.Icon2} alt="Baby"/>
                     <p>Permitido para menores</p>  
                 </S.ContentWrapper>
-            </S.Main>
+            </S.Images>
         </>
     )
 }
