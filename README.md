@@ -1,6 +1,6 @@
 # LogMine
 
-> Status : Em desenvolvimento ⏳ 
+> Status : Finalizado ✅
 
 ## Desafio [24] Codelândia - Iuri Silva
 >Veja o design: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab
@@ -11,7 +11,7 @@ _Tecnologias:_
 
 - ReactJS ⚛️
 - Styled-components 💅
-- Vite
+- Vite ⚡
 
 ### Como usar:
 
